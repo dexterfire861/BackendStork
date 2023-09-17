@@ -71,10 +71,6 @@ def format_event():
     return formatted_data
 
 
-@app.route('/api/directions')
-def serve_pathfinding_script():
-    return render_template('script.html')
-
 
 
 if __name__ == '__main__':
