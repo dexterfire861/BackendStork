@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request, send_file, render_template
 import os
 import json
 from supabase import create_client, Client
-import js2py
 
 
 app = Flask(__name__)
