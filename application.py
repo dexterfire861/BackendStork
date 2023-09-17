@@ -64,7 +64,7 @@ def organize_event_data(event_values):
     }
     return formatted_data
     
-@app.route('/api/endpoint', methods=['POST']'])
+@app.route('/api/endpoint', methods=['GET'])
 def format_event():
     event = request.args.get('event')
     event_values = accessDB(event)  # Assuming this function is defined elsewhere
